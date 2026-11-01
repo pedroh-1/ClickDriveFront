@@ -72,24 +72,8 @@ O projeto foi desenvolvido utilizando o ecossistema **Spring Boot**, adotando as
 
 ---
 
-## 5. PROJETO E TECNOLOGIAS
-
-*   **Linguagem:** Java 
-*   **Framework:** Spring Boot 3.4.2
-*   **Banco de Dados:** MySQL 
-*   **Documentação:** Swagger/OpenAPI 
-*   **Persistência:** Spring Data JPA / Hibernate
-
----
-
 ## 6. CONCLUSÃO
 
 O ClickDrive atende aos requisitos propostos para a modernização da gestão de autoescolas. A arquitetura robusta permite a escalabilidade do sistema para novas funcionalidades, como um aplicativo mobile para alunos. A implementação de simulados automatizados e o controle financeiro rígido demonstram a aplicação prática de conceitos avançados de engenharia de software e padrões de projeto.
 
 ---
-
-## 7. COMO EXECUTAR
-
-1.  Configure o banco de dados em `src/main/resources/application.properties`.
-2.  Execute `./mvnw spring-boot:run`.
-3.  Acesse a documentação em `http://localhost:8080/swagger-ui.html`.
