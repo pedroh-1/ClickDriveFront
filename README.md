@@ -1,6 +1,6 @@
 # ClickDrive - Sistema de Gestão Integrada para Autoescolas
 
-**Trabalho Acadêmico de Engenharia de Software**
+**Trabalho Acadêmico de Programação para dispositivos móveis**
 
 **Membros do Grupo:**
 * Deyvson Mendes Rodrigues
