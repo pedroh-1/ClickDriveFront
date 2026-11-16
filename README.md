@@ -104,7 +104,6 @@ O ClickDrive atende aos requisitos propostos para a modernização da gestão de
 * **Realização de Simulado** (`RF10`)
 * **Resultado do Simulado** (`RF11`)
 * **Avaliação de Aula** (`RF09`)
-* **Pagamento e Histórico Financeiro** (`RF17`)
 * **[Admin] Banco de Questões** (`RF18`)
 
 ---
