@@ -77,3 +77,44 @@ O projeto foi desenvolvido utilizando o ecossistema **Spring Boot**, adotando as
 O ClickDrive atende aos requisitos propostos para a modernização da gestão de autoescolas. A arquitetura robusta permite a escalabilidade do sistema para novas funcionalidades, como um aplicativo mobile para alunos. A implementação de simulados automatizados e o controle financeiro rígido demonstram a aplicação prática de conceitos avançados de engenharia de software e padrões de projeto.
 
 ---
+
+# Divisão de Telas — ClickDrive (Flutter)
+
+## 👨‍💻 DEV 1 — Usuário e Candidatura - Deyvson
+* **Login e Cadastro** (`RF01`, `RF02`)
+* **Perfil do Aluno e Instrutor** (`RF15`)
+* **Busca de Instrutores por Categoria** (`RF05`)
+* **Alunos Vinculados ao Instrutor** (`RF14`)
+* **Candidatura a Instrutor** (`RF03`)
+* **[Admin] Validação de Candidaturas** (`RF16`)
+
+---
+
+## 👨‍💻 DEV 2 — Aulas e Agenda - João Kevin
+* **Agenda do Instrutor** (`RF06`)
+* **Solicitação de Agendamento de Aula** (`RF07`)
+* **Histórico e Cancelamento de Aulas** (`RF08`, `RF19`)
+* **[Instrutor] Gerenciar Disponibilidade** (`RF12`)
+* **[Instrutor] Aceitar ou Recusar Aulas** (`RF13`)
+
+---
+
+## 👨‍💻 DEV 3 — Acadêmico, Avaliações e Financeiro - Pedro
+* **Dicas de Trânsito** (`RF04`)
+* **Realização de Simulado** (`RF10`)
+* **Resultado do Simulado** (`RF11`)
+* **Avaliação de Aula** (`RF09`)
+* **Pagamento e Histórico Financeiro** (`RF17`)
+* **[Admin] Banco de Questões** (`RF18`)
+
+---
+
+## 📁 Estrutura de Pastas (`lib/`)
+```text
+lib/
+├── core/          # Configuração da API, rotas e tema
+├── shared/        # Widgets reutilizáveis e menu principal
+└── features/
+    ├── usuario/   # Telas e serviços do DEV 1
+    ├── aulas/     # Telas e serviços do DEV 2
+    └── academico/ # Telas e serviços do DEV 3
